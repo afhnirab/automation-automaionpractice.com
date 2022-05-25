@@ -80,8 +80,8 @@ public class Auto_mata {
 //        Actions action = new Actions(driver);
 //        WebElement we = driver.findElement(By.xpath("//*[@id=\"block_top_menu\"]/ul/li[2]/a"));
 //        action.moveToElement(we).moveToElement(driver.findElement(By.xpath("//*[@id=\"block_top_menu\"]/ul/li[2]/ul/li[1]/a"))).click().build().perform();
-        String yoyo = "//*[@title='Casual Dresses']";
-        driver.get(driver.findElement(By.xpath(yoyo)).getAttribute("href"));
+        String cas_dress = "//*[@title='Casual Dresses']";
+        driver.get(driver.findElement(By.xpath(cas_dress)).getAttribute("href"));
         driver.manage().timeouts().implicitlyWait(Duration.ofMillis(4000));
         Actions action = new Actions(driver);
         WebElement we = driver.findElement(By.className("product-container"));
